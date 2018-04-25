@@ -12,6 +12,7 @@ namespace MobilGame
 		public MainPage()
 		{
 			InitializeComponent();
+            //test
 		}
 	}
 }

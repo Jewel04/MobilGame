@@ -12,7 +12,19 @@ namespace MobilGame
 		public MainPage()
 		{
 			InitializeComponent();
+
+        
             //test
-		}
-	}
+        }
+
+        public void Submit_Clicked(object sender, EventArgs e)
+        {
+            var nameValue = name.Text;
+        }
+
+        void Entry_Completed(object sender, EventArgs e)
+        {
+            var text = ((Entry)sender).Text; //cast sender to access the properties of the Entry
+        }
+    }
 }

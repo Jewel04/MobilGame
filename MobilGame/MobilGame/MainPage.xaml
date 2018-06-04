@@ -2,10 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MobilGame"
-             x:Class="MobilGame.MainPage">
+             x:Class="MobilGame.MainPage"
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+
+    Title="jeu cool">
+    <ContentPage.Content>
+        
+        <AbsoluteLayout>
+            <Label Text="Bienvenue sur ... un jeu troooop bien :)"
+                AbsoluteLayout.LayoutBounds="0.5,0.2, 0.7, 0.2" AbsoluteLayout.LayoutFlags="All"  />
+
+            <Label Text="Qui joue ? :)"
+                AbsoluteLayout.LayoutBounds="0.5,0.4, 0.3, 0.2" AbsoluteLayout.LayoutFlags="All"  />
+
+
+            <Entry x:Name="name" Placeholder="Username" 
+            AbsoluteLayout.LayoutBounds="0.5,0.6, 0.3, 0.2" AbsoluteLayout.LayoutFlags="All"  />
+            
+            
+        </AbsoluteLayout>
+
+
+    </ContentPage.Content>
 
 </ContentPage>

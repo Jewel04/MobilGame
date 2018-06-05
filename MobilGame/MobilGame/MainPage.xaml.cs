@@ -12,14 +12,14 @@ namespace MobilGame
 		public MainPage()
 		{
 			InitializeComponent();
+            var nameValue = name1.Text;
 
-        
             //test
         }
 
         public void Submit_Clicked(object sender, EventArgs e)
         {
-            var nameValue = name.Text;
+            var nameValue = name1.Text;
         }
 
         void Entry_Completed(object sender, EventArgs e)
